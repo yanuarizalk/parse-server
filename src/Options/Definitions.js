@@ -324,9 +324,9 @@ module.exports.ParseServerOptions = {
     help: 'Protected fields that should be treated with extra security when fetching details.',
     action: parsers.objectParser,
     default: {
-      _User: {
+      /* _User: {
         '*': ['email'],
-      },
+      }, */
     },
   },
   publicServerURL: {
